@@ -1,0 +1,1 @@
+<h2 style="text-align: center"> Classification of Bacterial Strains as Drug Resistant</h2>

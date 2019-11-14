@@ -1,0 +1,42 @@
+﻿  Compiling CUDA source file pageRank.cu...
+  
+  C:\Users\akhil\source\repos\Page_Rank\Page_Rank>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc141.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\pageRank.cu.obj "C:\Users\akhil\source\repos\Page_Rank\Page_Rank\pageRank.cu" 
+C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(81): warning : transfer of control bypasses initialization of:
+C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(88): warning : transfer of control bypasses initialization of:
+C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(93): warning : transfer of control bypasses initialization of:
+C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(98): warning : transfer of control bypasses initialization of:
+C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(103): warning : transfer of control bypasses initialization of:
+C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(108): warning : transfer of control bypasses initialization of:
+C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(113): warning : transfer of control bypasses initialization of:
+C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(120): warning : transfer of control bypasses initialization of:
+C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(125): warning : transfer of control bypasses initialization of:
+C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(130): warning : transfer of control bypasses initialization of:
+C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(135): warning : transfer of control bypasses initialization of:
+C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(140): warning : transfer of control bypasses initialization of:
+C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(234): warning : unrecognized character escape sequence
+C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(234): warning : unrecognized character escape sequence
+C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(234): warning : unrecognized character escape sequence
+C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(81): warning : transfer of control bypasses initialization of:
+C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(88): warning : transfer of control bypasses initialization of:
+C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(93): warning : transfer of control bypasses initialization of:
+C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(98): warning : transfer of control bypasses initialization of:
+C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(103): warning : transfer of control bypasses initialization of:
+C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(108): warning : transfer of control bypasses initialization of:
+C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(113): warning : transfer of control bypasses initialization of:
+C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(120): warning : transfer of control bypasses initialization of:
+C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(125): warning : transfer of control bypasses initialization of:
+C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(130): warning : transfer of control bypasses initialization of:
+C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(135): warning : transfer of control bypasses initialization of:
+C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(140): warning : transfer of control bypasses initialization of:
+C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(234): warning : unrecognized character escape sequence
+C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(234): warning : unrecognized character escape sequence
+C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(234): warning : unrecognized character escape sequence
+  pageRank.cu
+C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(179): warning C4533: initialization of 'grid' is skipped by 'goto Error'
+  C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(143): note: see declaration of 'grid'
+  C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(179): note: see declaration of 'Error'
+C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(179): warning C4533: initialization of 'block' is skipped by 'goto Error'
+  C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(142): note: see declaration of 'block'
+  C:/Users/akhil/source/repos/Page_Rank/Page_Rank/pageRank.cu(179): note: see declaration of 'Error'
+     Creating library C:\Users\akhil\source\repos\Page_Rank\x64\Debug\Page_Rank.lib and object C:\Users\akhil\source\repos\Page_Rank\x64\Debug\Page_Rank.exp
+  Page_Rank.vcxproj -> C:\Users\akhil\source\repos\Page_Rank\x64\Debug\Page_Rank.exe
